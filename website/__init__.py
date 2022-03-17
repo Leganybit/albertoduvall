@@ -22,6 +22,9 @@ def create_app():
 	@app.route("/suprarealismo")
 	def suprarealismo():
 		return render_template("/obras/suprarealismo.html")
+	@app.route("/retrospectivo")
+	def retrospectivo():
+		return render_template("/obras/retrospectivo.html")
 	@app.route("/retratos")
 	def retratos():
 		return render_template("/obras/retratos.html")
