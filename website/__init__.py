@@ -12,6 +12,9 @@ def create_app():
 	@app.route("/criticas")
 	def criticas():
 		return render_template("/criticas.html")
+	@app.route("/criticas_completas")
+	def criticas_completas():
+		return render_template("/criticas_completa.html")
 
 	@app.route("/realismo")
 	def realismo():
